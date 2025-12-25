@@ -1,0 +1,3712 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>DRΛGONFLΛMΞ • Premium Predictions</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&amp;family=Montserrat:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    /* [ALL CSS FROM PREVIOUS RED DRAGON THEME REMAINS EXACTLY THE SAME - Too long to repeat, but includes all dragon styling] */
+    :root {
+      /* RED DRAGON 3D Theme Colors */
+      --dragon-red: #FF0000;
+      --dragon-red-dark: #CC0000;
+      --dragon-red-light: #FF3333;
+      --dragon-orange: #FF6600;
+      --dragon-yellow: #FFCC00;
+      --dragon-black: #0A0A0A;
+      --dragon-gray: #1A1A1A;
+      --dragon-metal: #2A2A2A;
+      --dragon-gold: #FFD700;
+      --dragon-fire: linear-gradient(135deg, #FF0000 0%, #FF6600 50%, #FFCC00 100%);
+      
+      --bg-primary: #0A0A0A;
+      --bg-secondary: #1A1A1A;
+      --bg-tertiary: #2A2A2A;
+      --accent-primary: #FF0000;
+      --accent-secondary: #FF6600;
+      --accent-gold: #FFD700;
+      --accent-success: #00FF00;
+      --accent-danger: #FF3333;
+      --accent-warning: #FF9900;
+      --text-primary: #FFFFFF;
+      --text-secondary: #FFCCCC;
+      --text-muted: #FF9999;
+      --border-color: rgba(255, 0, 0, 0.3);
+      --shadow-color: rgba(255, 0, 0, 0.2);
+      
+      /* Dragon Gradients */
+      --gradient-dragon: linear-gradient(135deg, #FF0000 0%, #FF6600 50%, #FFCC00 100%);
+      --gradient-fire: linear-gradient(135deg, #FF0000 0%, #FF3300 50%, #FF6600 100%);
+      --gradient-metal: linear-gradient(135deg, #2A2A2A 0%, #1A1A1A 50%, #0A0A0A 100%);
+      --gradient-gold: linear-gradient(135deg, #FFD700 0%, #FF9900 50%, #FF6600 100%);
+      --gradient-success: linear-gradient(135deg, #00FF00 0%, #00CC00 100%);
+      --gradient-danger: linear-gradient(135deg, #FF0000 0%, #CC0000 100%);
+      --gradient-dark: linear-gradient(145deg, rgba(26, 26, 26, 0.95), rgba(10, 10, 10, 0.95));
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: "Montserrat", "El Messiri", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      background: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(255, 0, 0, 0.15) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 102, 0, 0.15) 0%, transparent 20%);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      overflow-x: hidden;
+      position: relative;
+      color: var(--text-primary);
+      font-size: 14px;
+    }
+
+    /* Dragon Scale Background Pattern */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: 
+        repeating-linear-gradient(45deg, transparent, transparent 30px, rgba(255, 0, 0, 0.05) 30px, rgba(255, 0, 0, 0.05) 32px);
+      z-index: -2;
+    }
+
+    /* Dragon Fire Animation */
+    .dragon-fire {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: var(--gradient-fire);
+      opacity: 0.3;
+      filter: blur(20px);
+      animation: firePulse 3s infinite;
+      z-index: -1;
+    }
+
+    @keyframes firePulse {
+      0%, 100% { opacity: 0.3; height: 100px; }
+      50% { opacity: 0.5; height: 150px; }
+    }
+
+    /* 3D Dragon Logo Container */
+    .dragon-logo-container {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 20px;
+      perspective: 1000px;
+    }
+
+    .dragon-logo {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      animation: dragonRotate 20s infinite linear;
+    }
+
+    .dragon-logo-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5rem;
+      backface-visibility: hidden;
+      border-radius: 50%;
+      transform: rotateY(calc(var(--i) * 45deg)) translateZ(60px);
+      box-shadow: 
+        0 0 30px rgba(255, 0, 0, 0.5),
+        inset 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+
+    @keyframes dragonRotate {
+      0% { transform: rotateY(0deg) rotateX(15deg); }
+      100% { transform: rotateY(360deg) rotateX(15deg); }
+    }
+
+    /* 3D Card Effect */
+    .card-3d {
+      transform-style: preserve-3d;
+      transform: perspective(1000px) rotateX(5deg);
+      transition: transform 0.5s ease;
+    }
+
+    .card-3d:hover {
+      transform: perspective(1000px) rotateX(0deg) translateY(-10px);
+    }
+
+    /* APK Optimized Overlay Styles */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      background: rgba(10, 10, 10, 0.98);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+    }
+
+    .overlay.active {
+      display: flex;
+      opacity: 1;
+      animation: overlayFadeIn 0.3s ease forwards;
+    }
+
+    .overlay-content {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 320px;
+      transform: scale(0.9);
+      opacity: 0;
+      animation: contentPopIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s forwards;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid var(--dragon-red);
+      background: var(--gradient-metal);
+      box-shadow: 
+        0 10px 30px rgba(255, 0, 0, 0.3),
+        0 0 30px rgba(255, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 0, 0, 0.1);
+    }
+
+    .overlay-content::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, 
+        transparent 30%, 
+        rgba(255, 0, 0, 0.1) 50%, 
+        transparent 70%);
+      animation: dragonShine 3s linear infinite;
+    }
+
+    @keyframes dragonShine {
+      0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+      100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+    }
+
+    /* Crack Dialog Styles */
+    .crack-dialog {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 2000;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: blur(15px);
+      padding: 20px;
+    }
+
+    .crack-dialog.active {
+      display: flex;
+      opacity: 1;
+      animation: overlayFadeIn 0.3s ease forwards;
+      pointer-events: all;
+    }
+
+    .crack-content {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 340px;
+      transform: scale(0.9);
+      opacity: 0;
+      animation: contentPopIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s forwards;
+      position: relative;
+      overflow: hidden;
+      border: 3px solid var(--dragon-gold);
+      background: linear-gradient(145deg, rgba(255, 215, 0, 0.15), rgba(26, 26, 26, 0.95));
+      box-shadow: 
+        0 15px 40px rgba(255, 215, 0, 0.4),
+        0 0 50px rgba(255, 215, 0, 0.3),
+        inset 0 0 30px rgba(255, 215, 0, 0.1);
+    }
+
+    .crack-content::before {
+      content: '';
+      position: absolute;
+      top: -100%;
+      left: -100%;
+      width: 300%;
+      height: 300%;
+      background: linear-gradient(45deg, 
+        transparent 30%, 
+        rgba(255, 215, 0, 0.15) 50%, 
+        transparent 70%);
+      animation: dragonShine 4s linear infinite;
+    }
+
+    .crack-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      background: var(--gradient-gold);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      position: relative;
+      padding-bottom: 15px;
+    }
+
+    .crack-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 3px;
+      background: var(--gradient-gold);
+      border-radius: 3px;
+    }
+
+    .crack-message {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 2rem;
+      line-height: 1.4;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      background: linear-gradient(45deg, #FFFFFF, #FFCC00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .crack-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 1.5rem;
+    }
+
+    .btn-crack {
+      padding: 14px 20px;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn-crack::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s ease;
+      z-index: -1;
+    }
+
+    .btn-crack:hover::before {
+      left: 100%;
+    }
+
+    .btn-crack.telegram {
+      background: linear-gradient(135deg, #0088CC, #00A1E6);
+      color: white;
+      box-shadow: 0 8px 20px rgba(0, 136, 204, 0.4);
+    }
+
+    .btn-crack.telegram:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 12px 25px rgba(0, 136, 204, 0.6);
+    }
+
+    .btn-crack.close {
+      background: linear-gradient(135deg, #FF0000, #FF6600);
+      color: white;
+      box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+    }
+
+    .btn-crack.close:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 12px 25px rgba(255, 0, 0, 0.6);
+    }
+
+    .crack-icon {
+      font-size: 4.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--dragon-gold);
+      filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+      animation: dragonFloat 2s ease-in-out infinite;
+    }
+
+    @keyframes dragonFloat {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(5deg); }
+    }
+
+    .victory-overlay .overlay-content {
+      background: linear-gradient(145deg, rgba(0, 255, 0, 0.15), rgba(26, 26, 26, 0.95));
+      border: 2px solid rgba(0, 255, 0, 0.3);
+      box-shadow: 
+        0 10px 30px rgba(0, 255, 0, 0.3),
+        0 0 30px rgba(0, 255, 0, 0.2);
+    }
+
+    .defeat-overlay .overlay-content {
+      background: linear-gradient(145deg, rgba(255, 0, 0, 0.15), rgba(26, 26, 26, 0.95));
+      border: 2px solid rgba(255, 0, 0, 0.3);
+      box-shadow: 
+        0 10px 30px rgba(255, 0, 0, 0.3),
+        0 0 30px rgba(255, 0, 0, 0.2);
+    }
+
+    .jackpot-overlay .overlay-content {
+      background: linear-gradient(145deg, rgba(255, 215, 0, 0.2), rgba(26, 26, 26, 0.95));
+      border: 2px solid rgba(255, 215, 0, 0.4);
+      animation: dragonJackpotGlow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes dragonJackpotGlow {
+      0% {
+        box-shadow: 
+          0 0 50px rgba(255, 215, 0, 0.3),
+          0 10px 30px rgba(255, 0, 0, 0.3),
+          0 0 50px rgba(255, 102, 0, 0.2);
+      }
+      100% {
+        box-shadow: 
+          0 0 80px rgba(255, 215, 0, 0.5),
+          0 10px 40px rgba(255, 0, 0, 0.4),
+          0 0 80px rgba(255, 102, 0, 0.3);
+      }
+    }
+
+    .jackpot-overlay .overlay-icon {
+      color: var(--dragon-gold);
+      font-size: 5rem;
+      filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.5));
+    }
+
+    .jackpot-overlay .overlay-title {
+      font-size: 2.5rem;
+      background: var(--gradient-gold);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    }
+
+    .jackpot-overlay .overlay-message {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+    }
+
+    .jackpot-number-display {
+      font-size: 6rem;
+      font-weight: 900;
+      margin: 1rem 0;
+      background: var(--gradient-gold);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      animation: dragonPulse 1s ease-in-out infinite;
+      position: relative;
+      display: inline-block;
+      padding: 0 15px;
+      line-height: 1;
+    }
+
+    .jackpot-number-display::before {
+      content: '🐉';
+      position: absolute;
+      left: -35px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2.5rem;
+      animation: dragonFloat 2s ease-in-out infinite;
+    }
+
+    .jackpot-number-display::after {
+      content: '🐉';
+      position: absolute;
+      right: -35px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2.5rem;
+      animation: dragonFloat 2s ease-in-out infinite reverse;
+    }
+
+    @keyframes dragonPulse {
+      0%, 100% { 
+        transform: scale(1);
+        opacity: 1;
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      }
+      50% { 
+        transform: scale(1.05);
+        opacity: 0.9;
+        text-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+      }
+    }
+
+    .dragon-fire-particle {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: var(--gradient-fire);
+      border-radius: 50%;
+      animation: fireFall 3s linear forwards;
+      z-index: 1002;
+    }
+
+    .overlay-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      animation: dragonFloat 2s ease-in-out infinite;
+    }
+
+    .victory-overlay .overlay-icon {
+      color: var(--accent-success);
+      filter: drop-shadow(0 0 15px rgba(0, 255, 0, 0.3));
+    }
+
+    .defeat-overlay .overlay-icon {
+      color: var(--accent-danger);
+      filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.3));
+    }
+
+    .overlay-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .victory-overlay .overlay-title {
+      background: var(--gradient-success);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .defeat-overlay .overlay-title {
+      background: var(--gradient-danger);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .overlay-message {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      line-height: 1.4;
+    }
+
+    .overlay-details {
+      background: rgba(26, 26, 26, 0.6);
+      padding: 1rem;
+      border-radius: 12px;
+      margin-top: 1.5rem;
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 0, 0, 0.2);
+      animation: detailsSlideUp 0.8s ease 0.5s forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .overlay-details p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin: 0.4rem 0;
+    }
+
+    .overlay-details .period {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text-primary);
+    }
+
+    .countdown-timer {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 0, 0, 0.2);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: 900;
+      color: var(--text-primary);
+      border: 2px solid rgba(255, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    /* Login Page Styles - Dragon Theme */
+    .login-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .login-box {
+      background: var(--gradient-metal);
+      padding: 2rem 1.5rem;
+      border-radius: 20px;
+      box-shadow: 
+        0 10px 30px rgba(255, 0, 0, 0.3),
+        0 0 30px rgba(255, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 0, 0, 0.1);
+      text-align: center;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      width: 100%;
+      max-width: 320px;
+      backdrop-filter: blur(20px);
+      border: 2px solid var(--dragon-red);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .login-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--gradient-dragon);
+    }
+
+    .login-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 1.5rem;
+      letter-spacing: 2px;
+      position: relative;
+      padding-bottom: 12px;
+      text-shadow: 0 2px 4px rgba(255, 0, 0, 0.3);
+    }
+
+    .login-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 2px;
+      background: var(--gradient-dragon);
+      border-radius: 3px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 0.95rem;
+      border: 1px solid rgba(255, 0, 0, 0.3);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      text-align: center;
+      background: rgba(26, 26, 26, 0.6);
+      color: var(--text-primary);
+      transition: all 0.2s ease;
+      font-weight: 500;
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--dragon-red);
+      box-shadow: 
+        0 0 0 3px rgba(255, 0, 0, 0.2), 
+        0 6px 10px rgba(0, 0, 0, 0.3),
+        inset 0 0 10px rgba(255, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: "Montserrat", "El Messiri", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.2), transparent);
+      transition: left 0.5s ease;
+      z-index: -1;
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .btn-primary {
+      background: var(--gradient-dragon);
+      color: white;
+      margin-bottom: 16px;
+      box-shadow: 0 6px 15px rgba(255, 0, 0, 0.4);
+    }
+
+    .btn-primary:hover, .btn-primary:active {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 
+        0 8px 20px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 102, 0, 0.3);
+    }
+
+    .btn.telegram {
+      background: linear-gradient(135deg, #0088CC, #00A1E6);
+      color: white;
+      box-shadow: 0 6px 15px rgba(0, 136, 204, 0.3);
+    }
+
+    .btn.telegram:hover, .btn.telegram:active {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 136, 204, 0.4);
+    }
+
+    .error {
+      color: var(--dragon-red-light);
+      font-size: 0.8rem;
+      margin-top: 12px;
+      font-weight: 500;
+      padding: 8px;
+      background: rgba(255, 0, 0, 0.1);
+      border-radius: 8px;
+      border-left: 3px solid var(--dragon-red);
+    }
+
+    .loading {
+      color: var(--dragon-red);
+      font-size: 0.9rem;
+      margin-top: 12px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: 500;
+    }
+
+    .loading-spinner {
+      border: 3px solid rgba(255, 0, 0, 0.1);
+      border-top: 3px solid var(--dragon-red);
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: spin 1s linear infinite;
+    }
+
+    /* Main App Styles - Dragon Theme */
+    .main-app {
+      font-family: "Montserrat", "El Messiri", sans-serif;
+      background: var(--bg-primary);
+      padding: 1rem 1rem 90px 1rem;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .main-app::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(255, 0, 0, 0.15) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 102, 0, 0.15) 0%, transparent 20%);
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      animation: fadeInDown 0.5s ease-out;
+      padding: 0 10px;
+    }
+
+    .main-title {
+      font-size: 2rem;
+      font-weight: 900;
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 2px;
+      margin-bottom: 4px;
+      position: relative;
+      display: inline-block;
+      text-shadow: 0 2px 4px rgba(255, 0, 0, 0.3);
+    }
+
+    .main-title::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 2px;
+      background: var(--gradient-dragon);
+      border-radius: 2px;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin-top: 0.8rem;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    .subtitle span {
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 600;
+    }
+
+    main {
+      flex-grow: 1;
+      width: 100%;
+      z-index: 10;
+      max-width: 100%;
+      padding: 0;
+    }
+
+    .card {
+      background: var(--gradient-metal);
+      border: 2px solid var(--dragon-red);
+      border-radius: 16px;
+      box-shadow: 
+        0 8px 20px rgba(255, 0, 0, 0.2),
+        0 0 20px rgba(255, 0, 0, 0.1),
+        inset 0 0 20px rgba(255, 0, 0, 0.05);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation: fadeInUp 0.5s ease-out forwards;
+      opacity: 0;
+      backdrop-filter: blur(20px);
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--gradient-dragon);
+    }
+
+    .card:hover {
+      transform: translateY(-5px) scale(1.01);
+      box-shadow: 
+        0 15px 30px rgba(255, 0, 0, 0.3),
+        0 0 30px rgba(255, 0, 0, 0.2),
+        inset 0 0 30px rgba(255, 0, 0, 0.1);
+    }
+
+    /* Dragon Prediction Card */
+    .prediction-card {
+      background: linear-gradient(145deg, rgba(255, 0, 0, 0.15), rgba(26, 26, 26, 0.9));
+      border: 2px solid var(--dragon-red);
+      border-radius: 14px;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      animation: fadeInUp 0.5s ease-out forwards;
+      opacity: 0;
+      transform: translateY(20px);
+      animation-delay: 0.2s;
+      box-shadow: 
+        0 8px 20px rgba(255, 0, 0, 0.2),
+        0 0 20px rgba(255, 102, 0, 0.1),
+        inset 0 0 20px rgba(255, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .prediction-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--gradient-dragon);
+    }
+
+    .prediction-card .prediction-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      letter-spacing: 1px;
+      margin-bottom: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .prediction-card .prediction-text {
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3),
+        0 0 10px rgba(255, 0, 0, 0.5);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+      animation: textGlow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+      100% { text-shadow: 0 0 20px rgba(255, 0, 0, 0.8); }
+    }
+
+    /* Progress Bar - Dragon Style */
+    .progress-container {
+      margin-top: 1rem;
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.3rem;
+    }
+
+    .progress-bar {
+      height: 6px;
+      background: rgba(255, 0, 0, 0.1);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--gradient-dragon);
+      border-radius: 3px;
+      transition: width 0.5s ease;
+    }
+
+    /* Dragon Navigation */
+    nav {
+      position: fixed;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(26, 26, 26, 0.95);
+      backdrop-filter: blur(20px);
+      border: 2px solid var(--dragon-red);
+      border-radius: 16px;
+      display: flex;
+      padding: 0.5rem;
+      width: calc(100% - 2rem);
+      max-width: 360px;
+      box-shadow: 
+        0 10px 25px rgba(255, 0, 0, 0.2),
+        0 0 20px rgba(255, 0, 0, 0.1);
+      z-index: 100;
+      overflow: hidden;
+    }
+
+    nav::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gradient-dragon);
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-secondary);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+      flex-grow: 1;
+      padding: 0.5rem 0;
+      border-radius: 12px;
+      transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      font-weight: 600;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      font-size: 0.7rem;
+    }
+
+    nav button.active {
+      color: var(--text-primary);
+      background: rgba(255, 0, 0, 0.15);
+    }
+
+    nav button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.1), transparent);
+      transition: left 0.5s ease;
+      z-index: -1;
+    }
+
+    nav button:hover, nav button:active {
+      color: var(--text-primary);
+      transform: translateY(-1px);
+    }
+
+    nav button:hover::before {
+      left: 100%;
+    }
+
+    .tab-content {
+      display: none;
+      width: 100%;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Dragon Readout Boxes */
+    .readout-box {
+      background: linear-gradient(145deg, rgba(26, 26, 26, 0.8), rgba(10, 10, 10, 0.8));
+      border: 1px solid rgba(255, 0, 0, 0.3);
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .readout-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--gradient-dragon);
+    }
+
+    .readout-box:hover {
+      transform: translateY(-3px);
+      box-shadow: 
+        0 6px 15px rgba(255, 0, 0, 0.3),
+        0 0 15px rgba(255, 0, 0, 0.2);
+    }
+
+    .readout-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .readout-value {
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      line-height: 1.2;
+      color: var(--text-primary);
+      text-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.2),
+        0 0 5px rgba(255, 0, 0, 0.3);
+    }
+
+    /* Dragon History Items */
+    .history-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 0, 0, 0.1);
+      transition: all 0.2s ease;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      background: rgba(26, 26, 26, 0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    .history-item:hover {
+      background: rgba(26, 26, 26, 0.8);
+      transform: translateX(3px);
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+    }
+
+    .history-item:last-child {
+      border-bottom: none;
+    }
+
+    .dragon-jackpot-count {
+      background: var(--gradient-gold);
+      color: var(--dragon-black);
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 0.65rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 4px;
+      display: inline-block;
+      box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);
+    }
+
+    /* Dragon Stats Container */
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .stat-box {
+      background: linear-gradient(145deg, rgba(26, 26, 26, 0.8), rgba(10, 10, 10, 0.8));
+      border: 1px solid rgba(255, 0, 0, 0.3);
+      border-radius: 12px;
+      padding: 0.8rem;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+    }
+
+    .win-stat::before { background: var(--gradient-success); }
+    .loss-stat::before { background: var(--gradient-danger); }
+    .pending-stat::before { background: var(--gradient-dragon); }
+    .accuracy-stat::before { background: var(--gradient-gold); }
+
+    .stat-box:hover {
+      transform: translateY(-2px);
+      box-shadow: 
+        0 6px 15px rgba(255, 0, 0, 0.3),
+        0 0 15px rgba(255, 0, 0, 0.2);
+    }
+
+    .stat-value {
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 0.2rem;
+    }
+
+    .win-stat .stat-value { 
+      background: var(--gradient-success);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+    }
+
+    .loss-stat .stat-value { 
+      background: var(--gradient-danger);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+    }
+
+    .pending-stat .stat-value { 
+      background: var(--gradient-dragon);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+    }
+
+    .accuracy-stat .stat-value { 
+      background: var(--gradient-gold);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+    }
+
+    .stat-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Result Items - Dragon Style */
+    .result-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.8rem;
+      border-bottom: 1px solid rgba(255, 0, 0, 0.1);
+      transition: all 0.2s ease;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      background: rgba(26, 26, 26, 0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    .result-item:hover {
+      background: rgba(26, 26, 26, 0.8);
+      transform: translateX(3px);
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+    }
+
+    .dragon-win-badge {
+      background: var(--gradient-success);
+      color: var(--dragon-black);
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.65rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .dragon-loss-badge {
+      background: var(--gradient-danger);
+      color: white;
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.65rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .dragon-pending-badge {
+      background: var(--gradient-dragon);
+      color: white;
+      padding: 3px 10px;
+      border-radius: 15px;
+      font-size: 0.65rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Dragon Particles */
+    .dragon-particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .dragon-particle {
+      position: absolute;
+      background: var(--gradient-fire);
+      border-radius: 50%;
+      animation: dragonFloatParticle 20s infinite linear;
+    }
+
+    /* New: Logic Indicator */
+    .logic-indicator {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: rgba(255, 0, 0, 0.2);
+      color: var(--dragon-red-light);
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 1px solid rgba(255, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .logic-changing {
+      animation: logicChangeAnimation 1s ease infinite;
+      background: var(--gradient-gold) !important;
+      color: var(--dragon-black) !important;
+    }
+
+    @keyframes logicChangeAnimation {
+      0%, 100% { 
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+      }
+      50% { 
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+      }
+    }
+
+    /* New: One Win Progress Display */
+    .one-win-progress {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 255, 0, 0.2);
+      color: var(--accent-success);
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 1px solid rgba(0, 255, 0, 0.3);
+    }
+
+    /* New: Quick Logic Progress */
+    .quick-logic-progress {
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+
+    .quick-progress-text {
+      font-size: 0.7rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+
+    .quick-progress-bar {
+      height: 4px;
+      background: rgba(255, 0, 0, 0.1);
+      border-radius: 2px;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    .quick-progress-fill {
+      height: 100%;
+      background: var(--gradient-dragon);
+      border-radius: 2px;
+      transition: width 0.5s ease;
+      width: 100%;
+    }
+
+    .logic-complete {
+      background: var(--gradient-success) !important;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes overlayFadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes contentPopIn {
+      0% { 
+        transform: scale(0.9) rotate(-3deg);
+        opacity: 0;
+      }
+      100% { 
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+      }
+    }
+
+    @keyframes detailsSlideUp {
+      0% { 
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      100% { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fireFall {
+      0% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+      }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes dragonFloatParticle {
+      0% {
+        transform: translateY(100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(-100vh) rotate(360deg);
+      }
+    }
+
+    /* Scrollbar Styling - Dragon Theme */
+    #historyContainer::-webkit-scrollbar,
+    #resultsHistoryContainer::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    #historyContainer::-webkit-scrollbar-track,
+    #resultsHistoryContainer::-webkit-scrollbar-track {
+      background: rgba(255, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    #historyContainer::-webkit-scrollbar-thumb,
+    #resultsHistoryContainer::-webkit-scrollbar-thumb {
+      background: var(--gradient-dragon);
+      border-radius: 10px;
+    }
+
+    /* Touch-friendly buttons */
+    .touch-btn {
+      min-height: 44px;
+      min-width: 44px;
+    }
+
+    /* Status Bar Area Safe Zone */
+    .safe-area {
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+
+    /* Small screen adjustments */
+    @media (max-width: 360px) {
+      .login-box {
+        padding: 1.5rem 1rem;
+      }
+      .login-title {
+        font-size: 1.5rem;
+      }
+      .main-title {
+        font-size: 1.8rem;
+      }
+      .prediction-card .prediction-text {
+        font-size: 2.4rem;
+      }
+      .readout-value {
+        font-size: 1.5rem;
+      }
+      nav button span {
+        font-size: 0.6rem;
+      }
+      .overlay-title {
+        font-size: 1.8rem;
+      }
+      .overlay-icon {
+        font-size: 3rem;
+      }
+      .overlay-message {
+        font-size: 0.9rem;
+      }
+      .overlay-content {
+        padding: 1.5rem 1rem;
+      }
+      .jackpot-overlay .overlay-title {
+        font-size: 2rem;
+      }
+      .jackpot-overlay .overlay-icon {
+        font-size: 4rem;
+      }
+      .jackpot-overlay .overlay-message {
+        font-size: 1rem;
+      }
+      .jackpot-number-display {
+        font-size: 5rem;
+      }
+      .jackpot-number-display::before,
+      .jackpot-number-display::after {
+        font-size: 2rem;
+        left: -25px;
+        right: -25px;
+      }
+      .crack-title {
+        font-size: 2rem;
+      }
+      .crack-message {
+        font-size: 1rem;
+      }
+      .crack-icon {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* Tall screen adjustments */
+    @media (min-height: 700px) {
+      .scrollable-container {
+        max-height: 400px;
+      }
+    }
+
+    /* Landscape mode */
+    @media (orientation: landscape) and (max-height: 500px) {
+      .main-app {
+        padding-bottom: 80px;
+      }
+      nav {
+        bottom: 0.5rem;
+        padding: 0.4rem;
+      }
+      .scrollable-container {
+        max-height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="dragon-fire"></div>
+
+<!-- Crack Dialog -->
+<div id="crackDialog" class="crack-dialog">
+  <div class="crack-content">
+    <div class="crack-icon">
+      <i class="fa-solid fa-crown"></i>
+    </div>
+    <h1 class="crack-title">CRACK BY SATYAM</h1>
+    <p class="crack-message">JOIN TELEGRAM CHANNEL FOR DAILY PREMIUM MODS FREE</p>
+    
+    <div class="crack-buttons">
+      <button id="joinTelegramBtn" class="btn-crack telegram">
+        <i class="fab fa-telegram-plane"></i> JOIN TELEGRAM
+      </button>
+      <button id="closeCrackBtn" class="btn-crack close">
+        <i class="fa-solid fa-times"></i> CLOSE
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="victoryOverlay" class="overlay victory-overlay">
+    <div class="overlay-content">
+      <div class="overlay-icon">
+        <i class="fa-solid fa-dragon"></i>
+      </div>
+      <h1 class="overlay-title">DRAGON WIN!</h1>
+      <p class="overlay-message">Logic Complete! Switching to next algorithm...</p>
+      <div class="overlay-details">
+        <p>Period: <span class="period" id="victoryPeriod">---</span></p>
+        <p>Prediction: <span id="victoryPrediction">---</span> ✓</p>
+        <p>Actual Result: <span id="victoryActual">---</span></p>
+        <p>Logic Used: <span id="victoryLogic">---</span> ✓ COMPLETE</p>
+      </div>
+    </div>
+    <div class="countdown-timer" id="victoryTimer">5</div>
+</div>
+
+<div id="defeatOverlay" class="overlay defeat-overlay">
+    <div class="overlay-content">
+      <div class="overlay-icon">
+        <i class="fa-solid fa-fire"></i>
+      </div>
+      <h1 class="overlay-title">TRY AGAIN</h1>
+      <p class="overlay-message">The dragon will rise again! Keep fighting!</p>
+      <div class="overlay-details">
+        <p>Period: <span class="period" id="defeatPeriod">0342</span></p>
+        <p>Your Prediction: <span id="defeatPrediction">SMALL 8</span> ✗</p>
+        <p>Actual Result: <span id="defeatActual">6 (BIGG)</span></p>
+        <p>Logic Used: <span id="defeatLogic">Simple Dragon</span></p>
+      </div>
+    </div>
+    <div class="countdown-timer" id="defeatTimer">1</div>
+</div>
+
+<div id="jackpotOverlay" class="overlay jackpot-overlay">
+    <div class="overlay-content">
+      <div class="overlay-icon">
+        <i class="fa-solid fa-crown"></i>
+      </div>
+      <h1 class="overlay-title">DRAGON JACKPOT!</h1>
+      <p class="overlay-message">Perfect Prediction! Logic Complete!</p>
+      <div class="jackpot-number-display" id="jackpotNumberDisplay">---</div>
+      <div class="overlay-details">
+        <p>Period: <span class="period" id="jackpotPeriod">---</span></p>
+        <p>Prediction: <span id="jackpotPrediction">---</span></p>
+        <p>Winning Number: <span class="period" id="jackpotActual">---</span></p>
+        <p>Your Numbers: <span class="period" id="jackpotYourNumbers">---</span></p>
+        <p>Logic Used: <span id="jackpotLogic">---</span> ✓ COMPLETE</p>
+      </div>
+    </div>
+    <div class="countdown-timer" id="jackpotTimer">8</div>
+</div>
+
+<div class="dragon-particles" id="dragonParticles"></div>
+
+<div id="loginSection" class="login-container" style="display: none;">
+    <!-- 3D Dragon Logo -->
+    <div class="dragon-logo-container">
+      <div class="dragon-logo">
+        <div class="dragon-logo-face" style="--i:0">🐉</div>
+        <div class="dragon-logo-face" style="--i:1">🔥</div>
+        <div class="dragon-logo-face" style="--i:2">🐉</div>
+        <div class="dragon-logo-face" style="--i:3">🔥</div>
+        <div class="dragon-logo-face" style="--i:4">🐉</div>
+        <div class="dragon-logo-face" style="--i:5">🔥</div>
+        <div class="dragon-logo-face" style="--i:6">🐉</div>
+        <div class="dragon-logo-face" style="--i:7">🔥</div>
+      </div>
+    </div>
+    
+    <div class="login-box card-3d">
+      <div class="login-title">DRΛGONFLΛMΞ</div>
+      <input type="text" id="accessKey" placeholder="Enter Access Key" class="form-input">
+      <button id="loginButton" class="btn btn-primary touch-btn">Login</button>
+      <button class="btn telegram touch-btn" onclick="window.open('https://t.me/+xtP19WJnmmdjYjNl', '_blank')">
+        <i class="fab fa-telegram-plane"></i> Get Key
+      </button>
+      <div class="loading" id="loading" style="display: none;">Verifying...<div class="loading-spinner"></div></div>
+      <div class="error" id="error"></div>
+    </div>
+</div>
+
+<div id="mainApp" class="main-app" style="display: none;">
+    <header>
+      <h1 class="main-title">DRΛGONFLΛMΞ</h1>
+      <p class="subtitle">1-Win Logic System • <span>Premium Predictions</span></p>
+    </header>
+    
+    <main>
+      <section id="tab-home" class="tab-content active w-full space-y-4">
+        <div class="card card-3d p-4">
+          <div class="grid grid-cols-2 gap-4 mb-4">
+            <div class="readout-box card-3d">
+              <h2 class="readout-label">Period</h2>
+              <div id="periodDisplay" class="readout-value">0343</div>
+            </div>
+            <div class="readout-box card-3d">
+              <h2 class="readout-label">Status</h2>
+              <div id="predictionStatus" class="readout-value" style="font-size: 1.3rem; color: var(--dragon-red);">Dragon Active</div>
+            </div>
+          </div>
+          
+          <!-- Dragon Prediction Card -->
+          <div class="prediction-card card-3d">
+            <div class="prediction-label">Current Prediction</div>
+            <div id="predictionDisplay" class="prediction-text" style="color: var(--accent-success);">BIGG 3</div>
+            <!-- HIDDEN: Y&Y results -->
+            <div id="predictionNumbers" class="prediction-numbers" style="display: none;"></div>
+            
+            <!-- Logic Indicator -->
+            <div class="logic-indicator" id="logicIndicator">Logic 1</div>
+            
+            <!-- One Win Progress Indicator -->
+            <div class="one-win-progress" id="oneWinProgress" style="background: rgba(255, 0, 0, 0.2); color: var(--accent-danger);">1 WIN NEEDED</div>
+            
+            <!-- Quick Logic Progress -->
+            <div class="quick-logic-progress">
+              <div class="quick-progress-text">Logic Progress</div>
+              <div class="quick-progress-bar">
+                <div id="quickLogicProgress" class="quick-progress-fill" style="width: 0%"></div>
+              </div>
+              <div class="quick-progress-text" id="quickProgressText">0/1 Win</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card card-3d p-4 w-full">
+          <h3 class="font-bold text-base mb-3">Dragon Status</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center">
+              <p class="text-secondary text-sm">API Connection:</p>
+              <p class="font-bold flex items-center gap-1 text-sm" id="apiStatus"><i class="fa-solid fa-fire text-red-500 text-xs"></i> Dragon Active</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-secondary text-sm">Last Update:</p>
+              <p class="font-bold text-sm" id="lastUpdateTime">11:12:55</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-secondary text-sm">Jackpot Wins:</p>
+              <p class="font-bold text-sm" id="jackpotWinsCount">0</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-secondary text-sm">Active Logic:</p>
+              <p class="font-bold text-sm" id="currentLogic">Simple Dragon</p>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-secondary text-sm">Logic Progress:</p>
+              <p class="font-bold text-sm" id="logicProgressDisplay">0/1 Win</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="tab-history" class="tab-content w-full">
+        <div class="card card-3d p-4">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Dragon History</h3>
+            <button id="clearHistoryBtn" class="bg-red-600 hover:bg-red-700 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg transition-all transform active:scale-95 touch-btn">
+              <i class="fa-solid fa-fire text-xs"></i>
+            </button>
+          </div>
+          <div id="historyContainer" class="scrollable-container">
+          <div class="history-item">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-clock text-xl w-6 text-center" style="color: var(--dragon-red)"></i>
+              <div>
+                <p class="font-bold text-sm">Period 0343</p>
+                <p class="text-xs text-secondary">
+                  11:12:55 | Dragon thinking...
+                </p>
+                <p class="text-xs font-semibold mt-1">BIGG 3</p>
+                <p class="text-xs text-dragon-red-light mt-1">Simple Dragon</p>
+                
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: var(--dragon-red)">
+                DRAGON
+              </div>
+              <div class="text-xs font-semibold mt-1">
+                Simple
+              </div>
+            </div>
+          </div>
+          <div class="history-item">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-skull-crossbones text-xl w-6 text-center" style="color: var(--accent-danger)"></i>
+              <div>
+                <p class="font-bold text-sm">Period 0342</p>
+                <p class="text-xs text-secondary">
+                  11:10:58 | Actual: 6 (BIGG)
+                </p>
+                <p class="text-xs font-semibold mt-1">SMALL 8</p>
+                <p class="text-xs text-dragon-red-light mt-1">Simple Dragon</p>
+                
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: var(--accent-danger)">
+                LOSE
+              </div>
+              <div class="text-xs font-semibold mt-1">
+                Simple
+              </div>
+            </div>
+          </div>
+          <div class="history-item">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-skull-crossbones text-xl w-6 text-center" style="color: var(--accent-danger)"></i>
+              <div>
+                <p class="font-bold text-sm">Period 0341</p>
+                <p class="text-xs text-secondary">
+                  11:10:25 | Actual: 3 (SMALL)
+                </p>
+                <p class="text-xs font-semibold mt-1">BIGG 1</p>
+                <p class="text-xs text-dragon-red-light mt-1">Simple Dragon</p>
+                
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: var(--accent-danger)">
+                LOSE
+              </div>
+              <div class="text-xs font-semibold mt-1">
+                Simple
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </section>
+      
+      <!-- Win/Lose History Tab -->
+      <section id="tab-results" class="tab-content w-full">
+        <div class="card card-3d p-4">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-lg font-bold">Dragon Results</h3>
+            <div class="flex items-center gap-2">
+              <button id="refreshResultsBtn" class="bg-red-600 hover:bg-red-700 text-white rounded-full w-8 h-8 flex items-center justify-center shadow-lg transition-all transform active:scale-95 touch-btn">
+                <i class="fa-solid fa-fire text-xs"></i>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Dragon Stats Summary -->
+          <div class="stats-container mb-4">
+            <div class="stat-box win-stat card-3d">
+              <div class="stat-value" id="winCount">0</div>
+              <div class="stat-label">Wins</div>
+            </div>
+            <div class="stat-box loss-stat card-3d">
+              <div class="stat-value" id="lossCount">2</div>
+              <div class="stat-label">Losses</div>
+            </div>
+            <div class="stat-box pending-stat card-3d">
+              <div class="stat-value" id="pendingCount">1</div>
+              <div class="stat-label">Pending</div>
+            </div>
+            <div class="stat-box accuracy-stat card-3d">
+              <div class="stat-value" id="accuracyRate">0%</div>
+              <div class="stat-label">Accuracy</div>
+            </div>
+          </div>
+          
+          <!-- Dragon Results History -->
+          <div id="resultsHistoryContainer" class="scrollable-container">
+          <div class="result-item">
+            <div class="flex items-center gap-3">
+              <div class="result-status">
+                <span class="dragon-loss-badge" style="">LOSE</span>
+                <div>
+                  <p class="font-bold text-sm">Period 0342</p>
+                  <p class="text-xs text-secondary">11:12:55</p>
+                  <p class="text-xs font-semibold">SMALL 8</p>
+                  <p class="text-xs text-dragon-red-light">Simple Dragon</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: var(--accent-danger)">
+                vs 6 (BIGG)
+              </div>
+            </div>
+          </div>
+          <div class="result-item">
+            <div class="flex items-center gap-3">
+              <div class="result-status">
+                <span class="dragon-loss-badge" style="">LOSE</span>
+                <div>
+                  <p class="font-bold text-sm">Period 0341</p>
+                  <p class="text-xs text-secondary">11:10:58</p>
+                  <p class="text-xs font-semibold">BIGG 1</p>
+                  <p class="text-xs text-dragon-red-light">Simple Dragon</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: var(--accent-danger)">
+                vs 3 (SMALL)
+              </div>
+            </div>
+          </div></div>
+        </div>
+      </section>
+      
+      <section id="tab-info" class="tab-content w-full">
+        <div class="card card-3d p-4 w-full text-center space-y-4">
+          <div class="dragon-logo-container" style="width: 80px; height: 80px; margin: 0 auto;">
+            <div class="dragon-logo" style="animation-duration: 15s;">
+              <div class="dragon-logo-face" style="--i:0; font-size: 3rem;">🐉</div>
+              <div class="dragon-logo-face" style="--i:1; font-size: 3rem;">🔥</div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 class="text-lg font-bold mb-1">DRΛGONFLΛMΞ</h4>
+            <p class="text-secondary text-sm">1-Win Logic System</p>
+          </div>
+          <p class="text-xs text-secondary px-2">Logic changes after 1 WIN • Fast algorithm rotation</p>
+          
+          <div class="space-y-3">
+            <a href="https://t.me/+xtP19WJnmmdjYjNl" target="_blank" class="btn btn-primary touch-btn text-sm">
+              <i class="fa-brands fa-telegram"></i> Contact Dragon Master
+            </a>
+            <button id="logoutButton" class="btn btn-primary touch-btn text-sm">
+              <i class="fa-solid fa-fire"></i> Logout
+            </button>
+            <button id="themeToggle" class="btn telegram touch-btn text-sm">
+              <i class="fa-solid fa-dragon"></i> Dragon Theme
+            </button>
+          </div>
+          
+          <div class="validity-box mt-4">
+            <h2 class="readout-label text-xs">Dragon Power</h2>
+            <div id="validityDisplay" class="validity-value text-xl font-bold" style="background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat-x: ; background-repeat-y: ; background-attachment: ; background-origin: ; background-clip: text; background-color: ; -webkit-text-fill-color: transparent;">2314d 23h</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <nav>
+      <button class="tab-btn active" data-tab="home">
+        <i class="fa-solid fa-fire text-base"></i>
+        <span class="text-xs">Home</span>
+      </button>
+      <button class="tab-btn" data-tab="history">
+        <i class="fa-solid fa-dragon text-base"></i>
+        <span class="text-xs">History</span>
+      </button>
+      <button class="tab-btn" data-tab="results">
+        <i class="fa-solid fa-crown text-base"></i>
+        <span class="text-xs">Results</span>
+      </button>
+      <button class="tab-btn" data-tab="info">
+        <i class="fa-solid fa-info-circle text-base"></i>
+        <span class="text-xs">Info</span>
+      </button>
+    </nav>
+</div>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+    import { getDatabase, ref, get, update, onValue, set } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDqvHdeAWl3sCfRlKkA1gw_7xvX4__UpX8",
+      authDomain: "noreply@codexweb-cee18-default-rtdb.firebaseio.com",
+      databaseURL: "https://codexweb-cee18-default-rtdb.firebaseio.com",
+      projectId: "codexweb-cee18",
+      storageBucket: "codexweb-cee18.firebasestorage.app",
+      messagingSenderId: "683667510746",
+      appId: "1:683667510746:android:06b90769ad3848e0fb9ce3"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // ========== CRACK DIALOG MANAGEMENT ==========
+    function showCrackDialog() {
+      const crackDialog = document.getElementById('crackDialog');
+      const dialogShown = localStorage.getItem('crackDialogShown');
+      
+      // Show dialog every time app is opened
+      crackDialog.classList.add('active');
+      
+      // Set flag to show it was shown this session
+      localStorage.setItem('crackDialogShown', 'true');
+    }
+
+    function hideCrackDialog() {
+      const crackDialog = document.getElementById('crackDialog');
+      crackDialog.classList.remove('active');
+    }
+
+    // ========== DRAGON THEME FUNCTIONS ==========
+    function initializeDragonTheme() {
+      createDragonParticles();
+      startDragonBreathEffect();
+    }
+
+    function createDragonParticles() {
+      const particlesContainer = document.getElementById('dragonParticles');
+      for (let i = 0; i < 25; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('dragon-particle');
+        particle.style.width = `${Math.random() * 5 + 2}px`;
+        particle.style.height = particle.style.width;
+        particle.style.left = `${Math.random() * 100}%`;
+        particle.style.animationDelay = `${Math.random() * 20}s`;
+        particle.style.animationDuration = `${Math.random() * 10 + 15}s`;
+        particle.style.opacity = Math.random() * 0.4 + 0.1;
+        particle.style.background = `linear-gradient(135deg, 
+          rgba(255, 0, 0, ${Math.random() * 0.5 + 0.3}), 
+          rgba(255, 102, 0, ${Math.random() * 0.5 + 0.3}))`;
+        particlesContainer.appendChild(particle);
+      }
+    }
+
+    function startDragonBreathEffect() {
+      const fireEffect = document.querySelector('.dragon-fire');
+      setInterval(() => {
+        fireEffect.style.animation = 'none';
+        setTimeout(() => {
+          fireEffect.style.animation = 'firePulse 3s infinite';
+        }, 10);
+      }, 3000);
+    }
+
+    // ========== PERMANENT KEYS SETUP ==========
+    async function setupPermanentKeys() {
+      try {
+        // Key 1: SATYAM (99999 days)
+        const satyamKeyRef = ref(db, 'accessKeys/SATYAM');
+        const satyamSnap = await get(satyamKeyRef);
+        
+        if (!satyamSnap.exists()) {
+          const satyamExpiry = Date.now() + (99999 * 24 * 60 * 60 * 1000);
+          await set(satyamKeyRef, {
+            active: true,
+            expiry: satyamExpiry,
+            createdAt: Date.now(),
+            permanent: true,
+            note: "Permanent key - 99999 days validity"
+          });
+          console.log("SATYAM key created successfully");
+        }
+
+        // Key 2: FAIZAN (99999 days)
+        const faizanKeyRef = ref(db, 'accessKeys/FAIZAN');
+        const faizanSnap = await get(faizanKeyRef);
+        
+        if (!faizanSnap.exists()) {
+          const faizanExpiry = Date.now() + (99999 * 24 * 60 * 60 * 1000);
+          await set(faizanKeyRef, {
+            active: true,
+            expiry: faizanExpiry,
+            createdAt: Date.now(),
+            permanent: true,
+            note: "Permanent key - 99999 days validity"
+          });
+          console.log("FAIZAN key created successfully");
+        }
+      } catch (error) {
+        console.error("Error setting up permanent keys:", error);
+      }
+    }
+
+    // ========== DRAGON OVERLAY MANAGER ==========
+    class DragonOverlayManager {
+      constructor() {
+        this.victoryOverlay = document.getElementById('victoryOverlay');
+        this.defeatOverlay = document.getElementById('defeatOverlay');
+        this.jackpotOverlay = document.getElementById('jackpotOverlay');
+        this.victoryTimer = document.getElementById('victoryTimer');
+        this.defeatTimer = document.getElementById('defeatTimer');
+        this.jackpotTimer = document.getElementById('jackpotTimer');
+        this.activeOverlay = null;
+        this.countdownInterval = null;
+        
+        this.effectsContainer = document.createElement('div');
+        this.effectsContainer.style.position = 'fixed';
+        this.effectsContainer.style.top = '0';
+        this.effectsContainer.style.left = '0';
+        this.effectsContainer.style.width = '100%';
+        this.effectsContainer.style.height = '100%';
+        this.effectsContainer.style.pointerEvents = 'none';
+        this.effectsContainer.style.zIndex = '1001';
+        document.body.appendChild(this.effectsContainer);
+      }
+
+      showVictory(period, prediction, actual, actualNumber, logicName, isLogicComplete) {
+        this.hideAllOverlays();
+        
+        document.getElementById('victoryPeriod').textContent = period.slice(-4);
+        document.getElementById('victoryPrediction').textContent = prediction;
+        document.getElementById('victoryActual').textContent = `${actualNumber} (${actual})`;
+        document.getElementById('victoryLogic').textContent = isLogicComplete ? 
+          `${logicName} ✓ COMPLETE` : logicName;
+        
+        this.startCountdown(5, this.victoryTimer);
+        
+        this.activeOverlay = this.victoryOverlay;
+        this.activeOverlay.classList.add('active');
+        
+        this.createDragonFire(20);
+        
+        // Special effect for logic completion
+        if (isLogicComplete) {
+          this.createLogicChangeEffects();
+          this.playLogicChangeSound();
+        } else {
+          this.playDragonSound('victory');
+        }
+        
+        setTimeout(() => {
+          this.hideAllOverlays();
+        }, 5000);
+      }
+
+      showDefeat(period, prediction, actual, actualNumber, logicName) {
+        this.hideAllOverlays();
+        
+        document.getElementById('defeatPeriod').textContent = period.slice(-4);
+        document.getElementById('defeatPrediction').textContent = prediction;
+        document.getElementById('defeatActual').textContent = `${actualNumber} (${actual})`;
+        document.getElementById('defeatLogic').textContent = logicName;
+        
+        this.startCountdown(5, this.defeatTimer);
+        
+        this.activeOverlay = this.defeatOverlay;
+        this.activeOverlay.classList.add('active');
+        
+        this.createDragonFire(10);
+        
+        setTimeout(() => {
+          this.hideAllOverlays();
+        }, 5000);
+      }
+
+      showJackpot(period, prediction, actualNumber, yourNumbers, logicName, isLogicComplete) {
+        this.hideAllOverlays();
+        
+        document.getElementById('jackpotPeriod').textContent = period.slice(-4);
+        document.getElementById('jackpotPrediction').textContent = prediction;
+        document.getElementById('jackpotActual').textContent = actualNumber;
+        document.getElementById('jackpotYourNumbers').textContent = yourNumbers;
+        document.getElementById('jackpotLogic').textContent = isLogicComplete ? 
+          `${logicName} ✓ COMPLETE` : logicName;
+        document.getElementById('jackpotNumberDisplay').textContent = actualNumber;
+        
+        this.startCountdown(8, this.jackpotTimer);
+        
+        this.activeOverlay = this.jackpotOverlay;
+        this.activeOverlay.classList.add('active');
+        
+        this.createDragonJackpotEffects();
+        
+        // Special effect for logic completion
+        if (isLogicComplete) {
+          this.createLogicChangeEffects();
+          this.playLogicChangeSound();
+        } else {
+          this.playDragonSound('jackpot');
+        }
+        
+        setTimeout(() => {
+          this.hideAllOverlays();
+        }, 8000);
+      }
+
+      createLogicChangeEffects() {
+        // Create golden fire particles for logic change
+        for (let i = 0; i < 30; i++) {
+          const fire = document.createElement('div');
+          fire.classList.add('dragon-fire-particle');
+          
+          const left = Math.random() * 100;
+          const size = Math.random() * 10 + 5;
+          const delay = Math.random() * 1;
+          const duration = Math.random() * 2 + 1;
+          
+          fire.style.left = `${left}%`;
+          fire.style.width = `${size}px`;
+          fire.style.height = `${size}px`;
+          fire.style.animationDelay = `${delay}s`;
+          fire.style.animationDuration = `${duration}s`;
+          fire.style.background = 'var(--gradient-gold)';
+          
+          this.effectsContainer.appendChild(fire);
+          
+          setTimeout(() => {
+            if (fire.parentNode === this.effectsContainer) {
+              this.effectsContainer.removeChild(fire);
+            }
+          }, (duration + delay) * 1000);
+        }
+      }
+
+      playLogicChangeSound() {
+        if ('speechSynthesis' in window) {
+          const speech = new SpeechSynthesisUtterance();
+          speech.text = `Logic complete! Switching to next dragon algorithm!`;
+          speech.rate = 0.9;
+          speech.pitch = 1.2;
+          speech.volume = 1;
+          speech.lang = 'en-US';
+          
+          window.speechSynthesis.cancel();
+          
+          setTimeout(() => {
+            window.speechSynthesis.speak(speech);
+          }, 500);
+        }
+      }
+
+      createDragonFire(count) {
+        this.clearEffects();
+        
+        for (let i = 0; i < count; i++) {
+          const fire = document.createElement('div');
+          fire.classList.add('dragon-fire-particle');
+          
+          const left = Math.random() * 100;
+          const size = Math.random() * 8 + 4;
+          const delay = Math.random() * 2;
+          const duration = Math.random() * 3 + 2;
+          
+          fire.style.left = `${left}%`;
+          fire.style.width = `${size}px`;
+          fire.style.height = `${size}px`;
+          fire.style.animationDelay = `${delay}s`;
+          fire.style.animationDuration = `${duration}s`;
+          
+          this.effectsContainer.appendChild(fire);
+          
+          setTimeout(() => {
+            if (fire.parentNode === this.effectsContainer) {
+              this.effectsContainer.removeChild(fire);
+            }
+          }, (duration + delay) * 1000);
+        }
+      }
+
+      createDragonJackpotEffects() {
+        this.clearEffects();
+        
+        for (let i = 0; i < 50; i++) {
+          const fire = document.createElement('div');
+          fire.classList.add('dragon-fire-particle');
+          
+          const left = Math.random() * 100;
+          const size = Math.random() * 12 + 6;
+          const delay = Math.random() * 2;
+          const duration = Math.random() * 3 + 2;
+          
+          fire.style.left = `${left}%`;
+          fire.style.width = `${size}px`;
+          fire.style.height = `${size}px`;
+          fire.style.animationDelay = `${delay}s`;
+          fire.style.animationDuration = `${duration}s`;
+          
+          if (i % 3 === 0) {
+            fire.style.background = 'var(--gradient-gold)';
+          }
+          
+          this.effectsContainer.appendChild(fire);
+          
+          setTimeout(() => {
+            if (fire.parentNode === this.effectsContainer) {
+              this.effectsContainer.removeChild(fire);
+            }
+          }, (duration + delay) * 1000);
+        }
+      }
+
+      playDragonSound(type) {
+        if ('speechSynthesis' in window) {
+          const speech = new SpeechSynthesisUtterance();
+          
+          if (type === 'jackpot') {
+            speech.text = `Dragon Jackpot! Winning number ${this.getJackpotNumber()}!`;
+          } else if (type === 'victory') {
+            speech.text = `Dragon win! Excellent prediction!`;
+          }
+          
+          speech.rate = 0.9;
+          speech.pitch = 1.2;
+          speech.volume = 1;
+          speech.lang = 'en-US';
+          
+          window.speechSynthesis.cancel();
+          
+          setTimeout(() => {
+            window.speechSynthesis.speak(speech);
+          }, 500);
+        }
+      }
+
+      getJackpotNumber() {
+        const display = document.getElementById('jackpotNumberDisplay');
+        return display ? display.textContent : '';
+      }
+
+      startCountdown(seconds, timerElement) {
+        let count = seconds;
+        timerElement.textContent = count;
+        
+        if (this.countdownInterval) {
+          clearInterval(this.countdownInterval);
+        }
+        
+        this.countdownInterval = setInterval(() => {
+          count--;
+          timerElement.textContent = count;
+          
+          if (count <= 0) {
+            clearInterval(this.countdownInterval);
+            this.countdownInterval = null;
+          }
+        }, 1000);
+      }
+
+      hideAllOverlays() {
+        if (this.countdownInterval) {
+          clearInterval(this.countdownInterval);
+          this.countdownInterval = null;
+        }
+        
+        this.victoryOverlay.classList.remove('active');
+        this.defeatOverlay.classList.remove('active');
+        this.jackpotOverlay.classList.remove('active');
+        this.activeOverlay = null;
+        
+        this.clearEffects();
+        
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+        }
+      }
+
+      clearEffects() {
+        while (this.effectsContainer.firstChild) {
+          this.effectsContainer.removeChild(this.effectsContainer.firstChild);
+        }
+      }
+    }
+
+    // Create dragon overlay manager
+    const dragonOverlayManager = new DragonOverlayManager();
+
+    // ========== ADVANCED PREDICTION LOGIC SYSTEM (9 LOGICS) ==========
+    const alternateNumberMap = {
+      0: 5, 1: 6, 2: 7, 3: 8, 4: 9,
+      5: 0, 6: 1, 7: 2, 8: 3, 9: 4
+    };
+
+    function getSize(number) {
+      return number <= 4 ? 'SMALL' : 'BIGG';
+    }
+
+    function getColor(number) {
+      return number % 2 === 0 ? 'RED' : 'GREEN';
+    }
+
+    function getAlternateNumber(number) {
+      return alternateNumberMap[number] !== undefined ? alternateNumberMap[number] : number;
+    }
+
+    // Helper: Calculate weighted average with dragon bias
+    function calculateDragonWeightedAverage(numbers, recentBias = 0.7) {
+      if (numbers.length === 0) return 4.5;
+      
+      let weightedSum = 0;
+      let totalWeight = 0;
+      
+      for (let i = 0; i < numbers.length; i++) {
+        const weight = Math.pow(recentBias, i);
+        weightedSum += numbers[i] * weight;
+        totalWeight += weight;
+      }
+      
+      return weightedSum / totalWeight;
+    }
+
+    // Helper: Dragon pattern detection
+    function detectDragonPattern(numbers) {
+      if (numbers.length < 3) return 'random';
+      
+      const trends = [];
+      for (let i = 1; i < numbers.length; i++) {
+        trends.push(numbers[i] > numbers[i-1] ? 'up' : numbers[i] < numbers[i-1] ? 'down' : 'same');
+      }
+      
+      const ups = trends.filter(t => t === 'up').length;
+      const downs = trends.filter(t => t === 'down').length;
+      
+      if (ups > downs * 1.5) return 'rising';
+      if (downs > ups * 1.5) return 'falling';
+      
+      // Check for zigzag
+      let zigzagCount = 0;
+      for (let i = 1; i < trends.length - 1; i++) {
+        if (trends[i] !== trends[i-1] && trends[i] !== trends[i+1]) {
+          zigzagCount++;
+        }
+      }
+      
+      if (zigzagCount > trends.length * 0.6) return 'zigzag';
+      
+      return 'random';
+    }
+
+    // LOGIC 1: Simple Dragon (based on last result)
+    function logic1_SimpleDragon(lastResults) {
+      const prediction = generateSimplePrediction(lastResults);
+      return {
+        prediction: prediction.simplePrediction,
+        numbers: prediction.numbersText,
+        baseNumber: prediction.number,
+        predictionSize: prediction.size,
+        logicId: 1,
+        logicName: 'Simple Dragon'
+      };
+    }
+
+    // LOGIC 2: Dragon Average (average of last 2 results)
+    function logic2_DragonAverage(lastResults) {
+      if (lastResults.length < 2) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 2,
+          logicName: 'Dragon Average'
+        };
+      }
+      
+      const lastTwo = lastResults.slice(0, 2);
+      const numbers = lastTwo.map(item => parseInt(item.number, 10));
+      const average = numbers.reduce((a, b) => a + b, 0) / numbers.length;
+      
+      let predictionNumber;
+      if (average > 4.5) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 2,
+        logicName: 'Dragon Average'
+      };
+    }
+
+    // LOGIC 3: Dragon Pattern (alternating pattern)
+    function logic3_DragonPattern(lastResults) {
+      if (lastResults.length === 0) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 3,
+          logicName: 'Dragon Pattern'
+        };
+      }
+      
+      const recentNumbers = lastResults.slice(0, 3).map(item => parseInt(item.number, 10));
+      const sizes = recentNumbers.map(num => getSize(num));
+      
+      let bigCount = sizes.filter(size => size === 'BIGG').length;
+      let smallCount = sizes.filter(size => size === 'SMALL').length;
+      
+      let predictionNumber;
+      if (bigCount >= smallCount) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 3,
+        logicName: 'Dragon Pattern'
+      };
+    }
+
+    // LOGIC 4: Dragon Tail (last 10 numbers analysis)
+    function logic4_DragonTail(lastResults) {
+      if (lastResults.length < 5) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 4,
+          logicName: 'Dragon Tail (10)'
+        };
+      }
+      
+      const lastTen = lastResults.slice(0, Math.min(10, lastResults.length));
+      const numbers = lastTen.map(item => parseInt(item.number, 10));
+      
+      const bigCount = numbers.filter(n => n > 4).length;
+      const smallCount = numbers.filter(n => n <= 4).length;
+      
+      let predictionNumber;
+      if (bigCount > smallCount) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 4,
+        logicName: 'Dragon Tail (10)'
+      };
+    }
+
+    // LOGIC 5: Dragon Wisdom (last 51 numbers - deep analysis)
+    function logic5_DragonWisdom(lastResults) {
+      if (lastResults.length < 10) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 5,
+          logicName: 'Dragon Wisdom (51)'
+        };
+      }
+      
+      const lastFiftyOne = lastResults.slice(0, Math.min(51, lastResults.length));
+      const numbers = lastFiftyOne.map(item => parseInt(item.number, 10));
+      
+      const average = numbers.reduce((a, b) => a + b, 0) / numbers.length;
+      const stdDev = Math.sqrt(
+        numbers.reduce((sq, n) => sq + Math.pow(n - average, 2), 0) / numbers.length
+      );
+      
+      let predictionNumber;
+      if (average > 4.5 && stdDev < 3) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else if (average <= 4.5 && stdDev < 3) {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      } else {
+        const recentAvg = calculateDragonWeightedAverage(numbers.slice(0, 10), 0.8);
+        predictionNumber = recentAvg > 4.5 ? 
+          Math.floor(Math.random() * 5) : 
+          Math.floor(Math.random() * 5) + 5;
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 5,
+        logicName: 'Dragon Wisdom (51)'
+      };
+    }
+
+    // LOGIC 6: Dragon Echo (repeat previous successful pattern)
+    function logic6_DragonEcho(lastResults) {
+      if (lastResults.length < 3) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 6,
+          logicName: 'Dragon Echo'
+        };
+      }
+      
+      const recentNumbers = lastResults.slice(0, 5).map(item => parseInt(item.number, 10));
+      const pattern = detectDragonPattern(recentNumbers);
+      
+      let predictionNumber;
+      
+      switch(pattern) {
+        case 'rising':
+          predictionNumber = Math.floor(Math.random() * 3) + 7;
+          break;
+        case 'falling':
+          predictionNumber = Math.floor(Math.random() * 3);
+          break;
+        case 'zigzag':
+          predictionNumber = Math.floor(Math.random() * 4) + 3;
+          break;
+        default:
+          predictionNumber = Math.floor(Math.random() * 5) + 2;
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 6,
+        logicName: 'Dragon Echo'
+      };
+    }
+
+    // LOGIC 7: Dragon Fire (complex pattern detection)
+    function logic7_DragonFire(lastResults) {
+      if (lastResults.length < 4) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 7,
+          logicName: 'Dragon Fire'
+        };
+      }
+      
+      const lastFour = lastResults.slice(0, 4).map(item => parseInt(item.number, 10));
+      const sizes = lastFour.map(n => getSize(n));
+      
+      const pattern1 = sizes[0] === 'BIGG' && sizes[1] === 'SMALL' && sizes[2] === 'BIGG';
+      const pattern2 = sizes[0] === 'SMALL' && sizes[1] === 'BIGG' && sizes[2] === 'SMALL';
+      
+      let predictionNumber;
+      
+      if (pattern1) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else if (pattern2) {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      } else {
+        const bigCount = sizes.filter(s => s === 'BIGG').length;
+        const smallCount = sizes.filter(s => s === 'SMALL').length;
+        
+        if (bigCount > smallCount) {
+          predictionNumber = Math.floor(Math.random() * 5);
+        } else {
+          predictionNumber = Math.floor(Math.random() * 5) + 5;
+        }
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 7,
+        logicName: 'Dragon Fire'
+      };
+    }
+
+    // LOGIC 8: Dragon ZigZag (alternating prediction)
+    function logic8_DragonZigZag(lastResults) {
+      if (lastResults.length < 2) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 8,
+          logicName: 'Dragon ZigZag'
+        };
+      }
+      
+      const lastTwo = lastResults.slice(0, 2);
+      const lastSizes = lastTwo.map(item => getSize(parseInt(item.number, 10)));
+      
+      let predictionNumber;
+      if (lastSizes[0] === 'BIGG') {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      } else {
+        predictionNumber = Math.floor(Math.random() * 5);
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 8,
+        logicName: 'Dragon ZigZag'
+      };
+    }
+
+    // LOGIC 9: Dragon Memory (previous day pattern)
+    function logic9_DragonMemory(lastResults) {
+      if (lastResults.length < 8) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 9,
+          logicName: 'Dragon Memory'
+        };
+      }
+      
+      const previousSession = lastResults.slice(4, 8);
+      const currentSession = lastResults.slice(0, 4);
+      
+      if (previousSession.length === 0) {
+        const prediction = generateSimplePrediction(lastResults);
+        return {
+          prediction: prediction.simplePrediction,
+          numbers: prediction.numbersText,
+          baseNumber: prediction.number,
+          predictionSize: prediction.size,
+          logicId: 9,
+          logicName: 'Dragon Memory'
+        };
+      }
+      
+      const prevNumbers = previousSession.map(item => parseInt(item.number, 10));
+      const prevBigCount = prevNumbers.filter(n => n > 4).length;
+      const prevSmallCount = prevNumbers.filter(n => n <= 4).length;
+      
+      const currNumbers = currentSession.map(item => parseInt(item.number, 10));
+      const currBigCount = currNumbers.filter(n => n > 4).length;
+      const currSmallCount = currNumbers.filter(n => n <= 4).length;
+      
+      let predictionNumber;
+      
+      if (prevBigCount > prevSmallCount * 1.5 && currBigCount <= currSmallCount) {
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else if (prevSmallCount > prevBigCount * 1.5 && currSmallCount <= currBigCount) {
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      } else {
+        if (currBigCount > currSmallCount) {
+          predictionNumber = Math.floor(Math.random() * 5);
+        } else {
+          predictionNumber = Math.floor(Math.random() * 5) + 5;
+        }
+      }
+      
+      const predictionSize = getSize(predictionNumber) === 'SMALL' ? 'BIGG' : 'SMALL';
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        prediction: `${predictionSize} ${predictionNumber}`,
+        numbers: `${predictionNumber} & ${alternateNumber}`,
+        baseNumber: predictionNumber,
+        predictionSize: predictionSize,
+        logicId: 9,
+        logicName: 'Dragon Memory'
+      };
+    }
+
+    function generateSimplePrediction(lastResults) {
+      if (lastResults.length === 0) {
+        return {
+          size: 'BIGG',
+          number: 0,
+          alternate: 5,
+          simplePrediction: 'BIGG 0',
+          numbersText: '0 & 5'
+        };
+      }
+      
+      const latestResult = lastResults[0];
+      const actualNumber = parseInt(latestResult.number, 10);
+      const actualSize = getSize(actualNumber);
+      
+      let predictionNumber, predictionSize;
+      
+      if (actualSize === 'BIGG') {
+        predictionSize = 'BIGG';
+        predictionNumber = Math.floor(Math.random() * 5);
+      } else {
+        predictionSize = 'SMALL';
+        predictionNumber = Math.floor(Math.random() * 5) + 5;
+      }
+      
+      const alternateNumber = getAlternateNumber(predictionNumber);
+      
+      return {
+        size: predictionSize,
+        number: predictionNumber,
+        alternate: alternateNumber,
+        simplePrediction: `${predictionSize} ${predictionNumber}`,
+        numbersText: `${predictionNumber} & ${alternateNumber}`
+      };
+    }
+
+    // ========== 1-WIN LOGIC SYSTEM ==========
+    let currentLogicIndex = 0;
+    let logicWinsCounter = 0;
+    const TOTAL_WINS_NEEDED = 1; // CHANGED FROM 10 TO 1
+    
+    const logicFunctions = [
+      logic1_SimpleDragon,
+      logic2_DragonAverage,
+      logic3_DragonPattern,
+      logic4_DragonTail,
+      logic5_DragonWisdom,
+      logic6_DragonEcho,
+      logic7_DragonFire,
+      logic8_DragonZigZag,
+      logic9_DragonMemory
+    ];
+
+    const logicNames = [
+      'Simple Dragon',
+      'Dragon Average',
+      'Dragon Pattern',
+      'Dragon Tail (10)',
+      'Dragon Wisdom (51)',
+      'Dragon Echo',
+      'Dragon Fire',
+      'Dragon ZigZag',
+      'Dragon Memory'
+    ];
+
+    function loadLogicState() {
+      const savedState = localStorage.getItem('dragon1WinLogicState');
+      if (savedState) {
+        try {
+          const state = JSON.parse(savedState);
+          currentLogicIndex = state.currentLogicIndex || 0;
+          logicWinsCounter = state.logicWinsCounter || 0;
+        } catch (e) {
+          currentLogicIndex = 0;
+          logicWinsCounter = 0;
+        }
+      }
+    }
+
+    function saveLogicState() {
+      const state = {
+        currentLogicIndex,
+        logicWinsCounter
+      };
+      localStorage.setItem('dragon1WinLogicState', JSON.stringify(state));
+    }
+
+    function getActiveLogicFunction() {
+      return logicFunctions[currentLogicIndex];
+    }
+
+    function getActiveLogicName() {
+      return logicNames[currentLogicIndex];
+    }
+
+    function incrementLogicWin() {
+      logicWinsCounter++;
+      
+      // Logic changes after 1 WIN (not 10)
+      if (logicWinsCounter >= TOTAL_WINS_NEEDED) {
+        // Save current logic performance before changing
+        saveLogicPerformance(currentLogicIndex, true);
+        
+        // Move to next logic
+        currentLogicIndex = (currentLogicIndex + 1) % logicFunctions.length;
+        logicWinsCounter = 0;
+        
+        // Show logic change animation
+        showLogicChangeAnimation();
+        
+        // Dragon effect on logic change
+        const indicator = document.getElementById('logicIndicator');
+        if (indicator) {
+          indicator.classList.add('logic-changing');
+          indicator.textContent = `Logic ${currentLogicIndex + 1}`;
+          
+          setTimeout(() => {
+            indicator.classList.remove('logic-changing');
+          }, 2000);
+        }
+      }
+      
+      saveLogicState();
+      updateLogicDisplay();
+    }
+
+    function saveLogicPerformance(logicId, success) {
+      const logicStats = JSON.parse(localStorage.getItem('dragonLogicStats') || '{}');
+      if (!logicStats[logicId]) {
+        logicStats[logicId] = { wins: 0, total: 0 };
+      }
+      logicStats[logicId].total++;
+      if (success) logicStats[logicId].wins++;
+      localStorage.setItem('dragonLogicStats', JSON.stringify(logicStats));
+    }
+
+    function showLogicChangeAnimation() {
+      // Create visual effect for logic change
+      const predictionCard = document.querySelector('.prediction-card');
+      if (predictionCard) {
+        predictionCard.style.animation = 'none';
+        setTimeout(() => {
+          predictionCard.style.animation = 'fadeInUp 0.5s ease-out forwards';
+        }, 10);
+      }
+      
+      // Update progress bar to show completion
+      const progressFill = document.getElementById('quickLogicProgress');
+      if (progressFill) {
+        progressFill.classList.add('logic-complete');
+        setTimeout(() => {
+          progressFill.classList.remove('logic-complete');
+        }, 1000);
+      }
+    }
+
+    function updateLogicDisplay() {
+      const indicator = document.getElementById('logicIndicator');
+      const progressFill = document.getElementById('quickLogicProgress');
+      const progressText = document.getElementById('quickProgressText');
+      const logicProgressDisplay = document.getElementById('logicProgressDisplay');
+      const currentLogicDisplay = document.getElementById('currentLogic');
+      const oneWinProgress = document.getElementById('oneWinProgress');
+      
+      if (indicator) {
+        indicator.textContent = `Logic ${currentLogicIndex + 1}`;
+      }
+      
+      if (currentLogicDisplay) {
+        currentLogicDisplay.textContent = getActiveLogicName();
+      }
+      
+      if (progressFill) {
+        const progressPercent = (logicWinsCounter / TOTAL_WINS_NEEDED) * 100;
+        progressFill.style.width = `${progressPercent}%`;
+      }
+      
+      if (progressText) {
+        progressText.textContent = `${logicWinsCounter}/${TOTAL_WINS_NEEDED} Win`;
+      }
+      
+      if (logicProgressDisplay) {
+        logicProgressDisplay.textContent = `${logicWinsCounter}/${TOTAL_WINS_NEEDED} Win`;
+      }
+      
+      if (oneWinProgress) {
+        if (logicWinsCounter >= TOTAL_WINS_NEEDED) {
+          oneWinProgress.textContent = 'READY TO SWITCH';
+          oneWinProgress.style.background = 'rgba(0, 255, 0, 0.3)';
+          oneWinProgress.style.color = 'var(--accent-success)';
+        } else {
+          oneWinProgress.textContent = '1 WIN NEEDED';
+          oneWinProgress.style.background = 'rgba(255, 0, 0, 0.2)';
+          oneWinProgress.style.color = 'var(--accent-danger)';
+        }
+      }
+    }
+
+    // ========== DRAGON THEME MANAGEMENT ==========
+    const dragonThemes = [
+      {
+        name: "Red Dragon",
+        colors: {
+          primary: "#FF0000",
+          secondary: "#FF6600",
+          bgPrimary: "#0A0A0A",
+          bgSecondary: "#1A1A1A"
+        },
+        gradient: "linear-gradient(135deg, #FF0000 0%, #FF6600 50%, #FFCC00 100%)"
+      },
+      {
+        name: "Fire Dragon",
+        colors: {
+          primary: "#FF3300",
+          secondary: "#FF9900",
+          bgPrimary: "#1A0A0A",
+          bgSecondary: "#2A1A1A"
+        },
+        gradient: "linear-gradient(135deg, #FF3300 0%, #FF9900 50%, #FFCC00 100%)"
+      },
+      {
+        name: "Dark Dragon",
+        colors: {
+          primary: "#990000",
+          secondary: "#CC3300",
+          bgPrimary: "#050505",
+          bgSecondary: "#151515"
+        },
+        gradient: "linear-gradient(135deg, #990000 0%, #CC3300 50%, #FF6600 100%)"
+      }
+    ];
+
+    let currentDragonThemeIndex = 0;
+
+    function changeDragonTheme() {
+      currentDragonThemeIndex = (currentDragonThemeIndex + 1) % dragonThemes.length;
+      const theme = dragonThemes[currentDragonThemeIndex];
+      
+      document.documentElement.style.setProperty('--dragon-red', theme.colors.primary);
+      document.documentElement.style.setProperty('--dragon-orange', theme.colors.secondary);
+      document.documentElement.style.setProperty('--bg-primary', theme.colors.bgPrimary);
+      document.documentElement.style.setProperty('--bg-secondary', theme.colors.bgSecondary);
+      document.documentElement.style.setProperty('--gradient-dragon', theme.gradient);
+      document.documentElement.style.setProperty('--accent-primary', theme.colors.primary);
+      document.documentElement.style.setProperty('--accent-secondary', theme.colors.secondary);
+      
+      document.getElementById('currentTheme').textContent = theme.name;
+      
+      // Add theme change animation
+      document.body.style.opacity = '0.9';
+      setTimeout(() => {
+        document.body.style.opacity = '1';
+      }, 300);
+    }
+
+    // ========== AUTHENTICATION SYSTEM ==========
+    function getDeviceId() {
+      let id = localStorage.getItem("dragon_device_id");
+      if (!id) {
+        id = crypto.randomUUID();
+        localStorage.setItem("dragon_device_id", id);
+      }
+      return id;
+    }
+
+    async function handleLogin() {
+      const key = document.getElementById("accessKey").value.trim();
+      const errorDiv = document.getElementById("error");
+      const loadingDiv = document.getElementById("loading");
+      const deviceId = getDeviceId();
+
+      errorDiv.innerText = "";
+      loadingDiv.style.display = "flex";
+
+      if (!key) {
+        loadingDiv.style.display = "none";
+        errorDiv.innerText = "Enter dragon access key!";
+        return;
+      }
+
+      // Check for permanent keys first
+      if (key === "SATYAM" || key === "FAIZAN") {
+        loadingDiv.style.display = "none";
+        
+        // For permanent keys, create them in Firebase if they don't exist
+        await setupPermanentKeys();
+        
+        // Set permanent expiry (99999 days from now)
+        const permanentExpiry = Date.now() + (99999 * 24 * 60 * 60 * 1000);
+        
+        localStorage.setItem("dragon_access_key", key);
+        localStorage.setItem('dragon_loginTimestamp', Date.now());
+        
+        // Hide crack dialog before showing main app
+        hideCrackDialog();
+        showMainApp();
+        updateValidityDisplay(key);
+        
+        // Store key info locally for permanent keys
+        const keyData = {
+          key: key,
+          expiry: permanentExpiry,
+          permanent: true
+        };
+        localStorage.setItem('dragon_key_data', JSON.stringify(keyData));
+        
+        return;
+      }
+
+      try {
+        const snap = await get(ref(db, `accessKeys/${key}`));
+        loadingDiv.style.display = "none";
+
+        if (!snap.exists()) {
+          errorDiv.innerText = "Invalid dragon key!";
+          return;
+        }
+
+        const data = snap.val();
+        if (!data.active) {
+          errorDiv.innerText = "Dragon key sleeping!";
+          return;
+        }
+
+        const now = Date.now();
+        if (data.expiry && now > data.expiry) {
+          errorDiv.innerText = "Dragon key expired!";
+          return;
+        }
+
+        if (data.deviceId && data.deviceId !== deviceId) {
+          errorDiv.innerText = "Dragon key used elsewhere!";
+          return;
+        }
+
+        if (!data.deviceId) {
+          await update(ref(db, `accessKeys/${key}`), { deviceId });
+        }
+
+        localStorage.setItem("dragon_access_key", key);
+        localStorage.setItem('dragon_loginTimestamp', Date.now());
+        
+        // Hide crack dialog before showing main app
+        hideCrackDialog();
+        showMainApp();
+        listenForKeyStatus(key);
+        updateValidityDisplay(key);
+      } catch (err) {
+        loadingDiv.style.display = "none";
+        errorDiv.innerText = "Dragon fire connection issue!";
+        console.error("Dragon Login Error:", err);
+      }
+    }
+
+    function showMainApp() {
+      const loginSection = document.getElementById('loginSection');
+      const mainApp = document.getElementById('mainApp');
+      loginSection.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+      loginSection.style.opacity = '0';
+      loginSection.style.transform = 'translateY(10px) scale(0.95)';
+      setTimeout(() => {
+        loginSection.style.display = 'none';
+        mainApp.style.display = 'flex';
+        mainApp.style.opacity = '0';
+        mainApp.style.transform = 'translateY(10px) scale(0.95)';
+        setTimeout(() => {
+          mainApp.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+          mainApp.style.opacity = '1';
+          mainApp.style.transform = 'translateY(0) scale(1)';
+          init();
+          initializeDragonTheme();
+          loadLogicState();
+          updateLogicDisplay();
+        }, 50);
+      }, 300);
+    }
+
+    function logout() {
+      const loginSection = document.getElementById('loginSection');
+      const mainApp = document.getElementById('mainApp');
+      mainApp.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+      mainApp.style.opacity = '0';
+      mainApp.style.transform = 'translateY(10px) scale(0.95)';
+      setTimeout(() => {
+        mainApp.style.display = 'none';
+        loginSection.style.display = 'flex';
+        loginSection.style.opacity = '0';
+        loginSection.style.transform = 'translateY(10px) scale(0.95)';
+        setTimeout(() => {
+          loginSection.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+          loginSection.style.opacity = '1';
+          loginSection.style.transform = 'translateY(0) scale(1)';
+          document.getElementById('accessKey').value = '';
+          document.getElementById('error').innerText = '';
+          
+          // Show crack dialog again when logging out
+          setTimeout(() => {
+            showCrackDialog();
+          }, 500);
+        }, 50);
+      }, 300);
+      localStorage.removeItem("dragon_access_key");
+      localStorage.removeItem('dragon_loginTimestamp');
+      localStorage.removeItem('dragon_jackpotCount');
+      localStorage.removeItem('dragon1WinLogicState');
+      localStorage.removeItem('dragon_key_data');
+    }
+
+    function listenForKeyStatus(key) {
+      const keyRef = ref(db, `accessKeys/${key}`);
+      onValue(keyRef, (snapshot) => {
+        if (!snapshot.exists()) {
+          console.log(`Dragon key ${key} deleted`);
+          logout();
+          document.getElementById('error').innerText = "Dragon key vanished!";
+        } else {
+          const data = snapshot.val();
+          if (!data.active) {
+            console.log(`Dragon key ${key} sleeping`);
+            logout();
+            document.getElementById('error').innerText = "Dragon key sleeping!";
+          }
+        }
+      }, (error) => {
+        console.error("Dragon Key Listener Error:", error);
+        logout();
+        document.getElementById('error').innerText = "Dragon connection lost!";
+      });
+    }
+
+    function updateValidityDisplay(key) {
+      const validityDisplay = document.getElementById('validityDisplay');
+      
+      // Check if it's a permanent key
+      if (key === "SATYAM" || key === "FAIZAN") {
+        validityDisplay.textContent = 'PERMANENT DRAGON';
+        validityDisplay.style.background = 'var(--gradient-gold)';
+        validityDisplay.style.webkitBackgroundClip = 'text';
+        validityDisplay.style.webkitTextFillColor = 'transparent';
+        return;
+      }
+
+      const keyRef = ref(db, `accessKeys/${key}`);
+      
+      get(keyRef).then((snapshot) => {
+        if (snapshot.exists()) {
+          const data = snapshot.val();
+          if (!data.expiry) {
+            validityDisplay.textContent = '∞ Dragon Power';
+            validityDisplay.style.background = 'var(--gradient-dragon)';
+            validityDisplay.style.webkitBackgroundClip = 'text';
+            validityDisplay.style.webkitTextFillColor = 'transparent';
+            return;
+          }
+          updateRemainingTime(data.expiry);
+        }
+      });
+
+      const intervalId = setInterval(() => {
+        get(keyRef).then((snapshot) => {
+          if (snapshot.exists()) {
+            const data = snapshot.val();
+            if (!data.expiry) {
+              validityDisplay.textContent = '∞ Dragon Power';
+              validityDisplay.style.background = 'var(--gradient-dragon)';
+              validityDisplay.style.webkitBackgroundClip = 'text';
+              validityDisplay.style.webkitTextFillColor = 'transparent';
+            } else {
+              updateRemainingTime(data.expiry);
+            }
+          } else {
+            clearInterval(intervalId);
+            logout();
+            document.getElementById('error').innerText = "Dragon key vanished!";
+          }
+        });
+      }, 1000);
+
+      function updateRemainingTime(expiry) {
+        const now = Date.now();
+        const diffMs = expiry - now;
+        
+        if (diffMs <= 0) {
+          validityDisplay.textContent = 'Dragon Sleep';
+          validityDisplay.style.background = 'var(--gradient-danger)';
+          validityDisplay.style.webkitBackgroundClip = 'text';
+          validityDisplay.style.webkitTextFillColor = 'transparent';
+          clearInterval(intervalId);
+          logout();
+          document.getElementById('error').innerText = "Dragon power expired!";
+          return;
+        }
+
+        const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diffMs % (1000 * 60)) / 1000);
+
+        let validityText = '';
+        if (days > 0) {
+          validityText = `${days}d ${hours}h`;
+          validityDisplay.style.background = 'var(--gradient-dragon)';
+        } else if (hours > 0) {
+          validityText = `${hours}h ${minutes}m`;
+          validityDisplay.style.background = hours > 1 ? 'var(--gradient-dragon)' : 'var(--gradient-gold)';
+        } else if (minutes > 0) {
+          validityText = `${minutes}m ${seconds}s`;
+          validityDisplay.style.background = minutes > 5 ? 'var(--gradient-gold)' : 'var(--gradient-danger)';
+        } else {
+          validityText = `${seconds}s`;
+          validityDisplay.style.background = 'var(--gradient-danger)';
+        }
+        
+        validityDisplay.textContent = validityText;
+        validityDisplay.style.webkitBackgroundClip = 'text';
+        validityDisplay.style.webkitTextFillColor = 'transparent';
+      }
+    }
+
+    // ========== EVENT LISTENERS ==========
+    document.getElementById("loginButton").addEventListener("click", handleLogin);
+    document.getElementById("logoutButton").addEventListener("click", logout);
+    document.getElementById("themeToggle").addEventListener("click", changeDragonTheme);
+
+    // Crack dialog buttons
+    document.getElementById("joinTelegramBtn").addEventListener("click", function() {
+      window.open('https://t.me/+xtP19WJnmmdjYjNl', '_blank');
+    });
+
+    document.getElementById("closeCrackBtn").addEventListener("click", function() {
+      hideCrackDialog();
+    });
+
+    document.getElementById("loginButton").addEventListener("touchstart", function(e) {
+      this.style.transform = "scale(0.98)";
+    });
+    
+    document.getElementById("loginButton").addEventListener("touchend", function(e) {
+      this.style.transform = "scale(1)";
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      // Setup permanent keys in Firebase
+      setupPermanentKeys();
+      
+      const savedKey = localStorage.getItem("dragon_access_key");
+      document.getElementById('loginSection').style.display = 'flex';
+      document.getElementById('mainApp').style.display = 'none';
+      
+      // Show crack dialog on every load
+      setTimeout(() => {
+        showCrackDialog();
+      }, 1000);
+      
+      if (savedKey) {
+        document.getElementById("accessKey").value = savedKey;
+        handleLogin();
+      } else {
+        getDeviceId();
+      }
+    });
+
+    // ========== MAIN APPLICATION LOGIC ==========
+    let predictionHistory = [];
+    let lastCheckedPeriod = null;
+    let jackpotCount = parseInt(localStorage.getItem('dragon_jackpotCount')) || 0;
+
+    const ui = {
+      period: document.getElementById('periodDisplay'),
+      prediction: document.getElementById('predictionDisplay'),
+      predictionNumbers: document.getElementById('predictionNumbers'),
+      history: document.getElementById('historyContainer'),
+      apiStatus: document.getElementById('apiStatus'),
+      lastUpdate: document.getElementById('lastUpdateTime'),
+      clearBtn: document.getElementById('clearHistoryBtn'),
+      refreshResultsBtn: document.getElementById('refreshResultsBtn'),
+      tabs: document.querySelectorAll('.tab-btn'),
+      contents: document.querySelectorAll('.tab-content'),
+      winCount: document.getElementById('winCount'),
+      lossCount: document.getElementById('lossCount'),
+      pendingCount: document.getElementById('pendingCount'),
+      accuracyRate: document.getElementById('accuracyRate'),
+      resultsHistory: document.getElementById('resultsHistoryContainer'),
+      jackpotWinsCount: document.getElementById('jackpotWinsCount'),
+      predictionStatus: document.getElementById('predictionStatus')
+    };
+
+    ui.jackpotWinsCount.textContent = jackpotCount;
+
+    // Mobile tab switching with dragon effects
+    ui.tabs.forEach(button => {
+      button.addEventListener('click', () => {
+        const tabId = button.getAttribute('data-tab');
+        ui.tabs.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        ui.contents.forEach(content => {
+          content.classList.remove('active');
+          content.style.display = 'none';
+        });
+        const activeTab = document.getElementById(`tab-${tabId}`);
+        activeTab.classList.add('active');
+        activeTab.style.display = 'block';
+        activeTab.querySelectorAll('.card').forEach((card, index) => {
+          card.style.animation = 'none';
+          void card.offsetWidth;
+          card.style.animation = `fadeInUp 0.4s ease-out ${index * 0.1}s forwards`;
+        });
+        
+        if (tabId === 'results') {
+          updateResultsStats();
+          updateResultsHistory();
+        }
+      });
+      
+      button.addEventListener('touchstart', () => {
+        button.style.transform = 'scale(0.95)';
+      });
+      
+      button.addEventListener('touchend', () => {
+        button.style.transform = 'scale(1)';
+      });
+    });
+
+    ui.clearBtn.addEventListener('click', () => {
+      if (confirm('Clear dragon history and reset system?')) {
+        predictionHistory = [];
+        jackpotCount = 0;
+        currentLogicIndex = 0;
+        logicWinsCounter = 0;
+        localStorage.setItem('dragon_jackpotCount', jackpotCount);
+        localStorage.removeItem('dragon1WinLogicState');
+        ui.jackpotWinsCount.textContent = jackpotCount;
+        updateHistoryDisplay();
+        updateResultsStats();
+        updateResultsHistory();
+        updateLogicDisplay();
+      }
+    });
+
+    ui.refreshResultsBtn.addEventListener('click', () => {
+      updateResultsStats();
+      updateResultsHistory();
+      ui.refreshResultsBtn.innerHTML = '<i class="fa-solid fa-fire"></i>';
+      setTimeout(() => {
+        ui.refreshResultsBtn.innerHTML = '<i class="fa-solid fa-fire"></i>';
+      }, 1000);
+    });
+
+    const API_URL = 'https://draw.ar-lottery01.com/WinGo/WinGo_1M/GetHistoryIssuePage.json';
+
+    async function fetchHistory() {
+      try {
+        const response = await fetch(`${API_URL}?t=${new Date().getTime()}`, { 
+          cache: 'no-store',
+          headers: {
+            'Cache-Control': 'no-cache'
+          }
+        });
+        if (!response.ok) throw new Error('Dragon network failed');
+        const data = await response.json();
+        if (!data || !data.data || !data.data.list) throw new Error('Invalid dragon data');
+        
+        ui.apiStatus.innerHTML = `<i class="fa-solid fa-fire text-red-500 text-xs"></i> Dragon Active`;
+        processApiData(data.data.list);
+      } catch (error) {
+        console.error("Dragon Fetch Error:", error);
+        ui.apiStatus.innerHTML = `<i class="fa-solid fa-fire-extinguisher text-gray-500 text-xs"></i> Dragon Sleeping`;
+      }
+    }
+
+    function processApiData(results) {
+      const latest = results[0];
+      if (latest && latest.issueNumber !== lastCheckedPeriod) {
+        lastCheckedPeriod = latest.issueNumber;
+        
+        checkForNewResults(results);
+        updatePredictionStatuses(results);
+        
+        const nextPeriod = (BigInt(latest.issueNumber) + 1n).toString();
+        
+        const activeLogic = getActiveLogicFunction();
+        const logicName = getActiveLogicName();
+        const predictionResult = activeLogic(results);
+        predictionResult.logicName = logicName;
+        
+        if (!predictionHistory.some(p => p.period === nextPeriod)) {
+          predictionHistory.unshift({ 
+            period: nextPeriod, 
+            prediction: predictionResult.prediction,
+            numbers: predictionResult.numbers,
+            baseNumber: predictionResult.baseNumber,
+            predictionSize: predictionResult.predictionSize,
+            logicId: predictionResult.logicId,
+            logicName: predictionResult.logicName,
+            status: 'pending',
+            timestamp: new Date().toLocaleTimeString(),
+            jackpotWin: false
+          });
+        }
+        
+        if (predictionHistory.length > 100) predictionHistory.pop();
+        updateUI(nextPeriod, predictionResult);
+        
+        updateResultsStats();
+      }
+      ui.lastUpdate.textContent = new Date().toLocaleTimeString();
+    }
+
+    function checkForNewResults(results) {
+      predictionHistory.forEach(p => {
+        if (p.status === 'pending') {
+          const result = results.find(r => r.issueNumber === p.period);
+          if (result) {
+            const actualNumber = parseInt(result.number, 10);
+            const actualSize = getSize(actualNumber);
+            
+            const predictionMatch = p.prediction.match(/(BIGG|SMALL)\s*(\d+)/);
+            const predictionNumber = predictionMatch ? parseInt(predictionMatch[2]) : null;
+            
+            const isJackpot = predictionNumber === actualNumber;
+            const isWin = p.predictionSize === actualSize;
+            
+            // Check if this win will complete the logic
+            const willCompleteLogic = (logicWinsCounter >= TOTAL_WINS_NEEDED - 1) && (isWin || isJackpot);
+            
+            if (isJackpot) {
+              p.jackpotWin = true;
+              jackpotCount++;
+              localStorage.setItem('dragon_jackpotCount', jackpotCount);
+              ui.jackpotWinsCount.textContent = jackpotCount;
+              
+              incrementLogicWin();
+              
+              dragonOverlayManager.showJackpot(
+                p.period,
+                p.prediction,
+                result.number,
+                p.numbers,
+                p.logicName,
+                willCompleteLogic
+              );
+            } else if (isWin) {
+              incrementLogicWin();
+              
+              dragonOverlayManager.showVictory(p.period, p.prediction, actualSize, result.number, p.logicName, willCompleteLogic);
+            } else {
+              dragonOverlayManager.showDefeat(p.period, p.prediction, actualSize, result.number, p.logicName);
+            }
+            
+            p.status = isWin || isJackpot ? 'win' : 'loss';
+            p.actual = actualSize;
+            p.actualNumber = result.number;
+            p.resultTime = new Date().toLocaleTimeString();
+          }
+        }
+      });
+    }
+
+    function updatePredictionStatuses(results) {
+      predictionHistory.forEach(p => {
+        if (p.status === 'pending') {
+          const result = results.find(r => r.issueNumber === p.period);
+          if (result) {
+            const actualNumber = parseInt(result.number, 10);
+            const actualSize = getSize(actualNumber);
+            
+            const predictionMatch = p.prediction.match(/(BIGG|SMALL)\s*(\d+)/);
+            const predictionNumber = predictionMatch ? parseInt(predictionMatch[2]) : null;
+            
+            if (predictionNumber === actualNumber) {
+              p.jackpotWin = true;
+            }
+            
+            const isWin = p.predictionSize === actualSize;
+            p.status = isWin || p.jackpotWin ? 'win' : 'loss';
+            p.actual = actualSize;
+            p.actualNumber = result.number;
+            p.resultTime = new Date().toLocaleTimeString();
+          }
+        }
+      });
+    }
+
+    function updateUI(nextPeriod, predictionResult) {
+      ui.period.textContent = nextPeriod.slice(-4);
+      ui.prediction.textContent = predictionResult.prediction;
+      ui.predictionNumbers.style.display = 'none';
+      
+      if (predictionResult.predictionSize === 'BIGG') {
+        ui.prediction.style.color = 'var(--accent-success)';
+      } else {
+        ui.prediction.style.color = 'var(--accent-danger)';
+      }
+      
+      ui.predictionStatus.textContent = logicWinsCounter >= TOTAL_WINS_NEEDED ? 
+        'READY TO SWITCH' : 'Dragon Active';
+      ui.predictionStatus.style.color = logicWinsCounter >= TOTAL_WINS_NEEDED ? 
+        'var(--accent-success)' : 'var(--dragon-red)';
+      
+      updateHistoryDisplay();
+      updateResultsHistory();
+      updateLogicDisplay();
+    }
+
+    function updateHistoryDisplay() {
+      if (predictionHistory.length === 0) {
+        ui.history.innerHTML = `<div class="text-center py-10 text-secondary">
+          <i class="fa-solid fa-dragon mb-3 text-3xl"></i>
+          <p class="text-sm">No dragon history yet.</p>
+          <p class="text-xs mt-1">Dragon predictions will appear here</p>
+        </div>`;
+        return;
+      }
+      
+      ui.history.innerHTML = predictionHistory.map(item => {
+        const iconClass = item.status === 'win' ? 'fa-fire' : 
+                          item.status === 'loss' ? 'fa-skull-crossbones' : 
+                          'fa-clock';
+        
+        const iconColor = item.status === 'win' ? 'var(--accent-success)' : 
+                         item.status === 'loss' ? 'var(--accent-danger)' : 
+                         'var(--dragon-red)';
+        
+        return `
+          <div class="history-item">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid ${iconClass} text-xl w-6 text-center" style="color: ${iconColor}"></i>
+              <div>
+                <p class="font-bold text-sm">Period ${item.period.slice(-4)}</p>
+                <p class="text-xs text-secondary">
+                  ${item.timestamp} | ${item.actual ? `Actual: ${item.actualNumber} (${item.actual})` : 'Dragon thinking...'}
+                </p>
+                <p class="text-xs font-semibold mt-1">${item.prediction}</p>
+                <p class="text-xs text-dragon-red-light mt-1">${item.logicName}</p>
+                ${item.jackpotWin ? `<span class="dragon-jackpot-count">🐉 DRAGON JACKPOT</span>` : ''}
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: ${item.status === 'win' ? 'var(--accent-success)' : item.status === 'loss' ? 'var(--accent-danger)' : 'var(--dragon-red)'}">
+                ${item.status === 'pending' ? 'DRAGON' : item.status === 'win' ? 'FIRE WIN' : 'LOSE'}
+              </div>
+              <div class="text-xs font-semibold mt-1">
+                ${item.logicName.split(' ')[0]}
+              </div>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function updateResultsStats() {
+      const wins = predictionHistory.filter(p => p.status === 'win').length;
+      const losses = predictionHistory.filter(p => p.status === 'loss').length;
+      const pending = predictionHistory.filter(p => p.status === 'pending').length;
+      const completed = wins + losses;
+      const accuracy = completed > 0 ? Math.round((wins / completed) * 100) : 0;
+      
+      ui.winCount.textContent = wins;
+      ui.lossCount.textContent = losses;
+      ui.pendingCount.textContent = pending;
+      ui.accuracyRate.textContent = `${accuracy}%`;
+    }
+
+    function updateResultsHistory() {
+      const completedResults = predictionHistory.filter(p => p.status === 'win' || p.status === 'loss');
+      
+      if (completedResults.length === 0) {
+        ui.resultsHistory.innerHTML = `<div class="text-center py-10 text-secondary">
+          <i class="fa-solid fa-dragon mb-3 text-3xl"></i>
+          <p class="text-sm">No dragon results yet.</p>
+          <p class="text-xs mt-1">Dragon battle results will appear here</p>
+        </div>`;
+        return;
+      }
+      
+      ui.resultsHistory.innerHTML = completedResults.map(item => {
+        const badgeClass = item.jackpotWin ? 'dragon-jackpot-count' : 
+                          item.status === 'win' ? 'dragon-win-badge' : 'dragon-loss-badge';
+        const badgeText = item.jackpotWin ? 'DRAGON JACKPOT' : 
+                         item.status === 'win' ? 'FIRE WIN' : 'LOSE';
+        const resultColor = item.jackpotWin ? 'var(--dragon-gold)' : 
+                           item.status === 'win' ? 'var(--accent-success)' : 'var(--accent-danger)';
+        
+        return `
+          <div class="result-item">
+            <div class="flex items-center gap-3">
+              <div class="result-status">
+                <span class="${badgeClass}" style="${item.jackpotWin ? 'background: var(--gradient-gold); color: var(--dragon-black);' : ''}">${badgeText}</span>
+                <div>
+                  <p class="font-bold text-sm">Period ${item.period.slice(-4)}</p>
+                  <p class="text-xs text-secondary">${item.resultTime || item.timestamp}</p>
+                  <p class="text-xs font-semibold">${item.prediction}</p>
+                  <p class="text-xs text-dragon-red-light">${item.logicName}</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="font-bold text-base" style="color: ${resultColor}">
+                vs ${item.actualNumber} (${item.actual})
+              </div>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    function init() {
+      fetchHistory();
+      setInterval(fetchHistory, 4000);
+      updateHistoryDisplay();
+      updateResultsStats();
+      updateResultsHistory();
+    }
+  </script>
+</body>
+</html>
